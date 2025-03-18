@@ -7,6 +7,8 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
+  basePath: "/facilitiespoc",
   eslint: {
     ignoreDuringBuilds: true,
   },
